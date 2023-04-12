@@ -1,0 +1,47 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Шрифты */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Окно результатов генерации */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.game-card {
+    max-width: 600px;
+    width: 100%;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .game-card {
+        margin-top: 2rem;
+    }
+}
